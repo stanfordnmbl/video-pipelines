@@ -13,13 +13,23 @@ Create a directory (say `data` as in the example below) and put your video (e.g.
 
 For CPU processing of your video run:
 ```
-docker run -v $(pwd)/data:/openpose/data stanfordnmbl/openpose-cpu /openpose/build/examples/openpose/openpose.bin --video /openpose/data/video.mp4 --display 0 --write_json /openpose/data/keypoints --render_pose 0
+docker run -v $(pwd)/data:/openpose/data stanfordnmbl/openpose-cpu\
+  /openpose/build/examples/openpose/openpose.bin\
+  --video /openpose/data/video.mp4\
+  --display 0\
+  --write_json /openpose/data/keypoints\
+  --render_pose 0
 ```
 Note that CPU processing is very slow -- it'll take at least 15x the duration of the video to process.
 
 For GPU processing of your video run:
 ```
-docker run --gpus=1 -v $(pwd)/data:/openpose/data stanfordnmbl/openpose-gpu /openpose/build/examples/openpose/openpose.bin --video /openpose/data/video.mp4 --display 0 --write_json /openpose/data/keypoints --render_pose 0
+docker run --gpus=1 -v $(pwd)/data:/openpose/data stanfordnmbl/openpose-gpu\
+  /openpose/build/examples/openpose/openpose.bin\
+  --video /openpose/data/video.mp4\
+  --display 0\
+  --write_json /openpose/data/keypoints\
+  --render_pose 0
 ```
 
 Resultis will be store in `data/keypoints` directory.
