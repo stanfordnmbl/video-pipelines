@@ -22,7 +22,7 @@ docker run -v $(pwd)/data:/openpose/data stanfordnmbl/openpose-cpu\
 ```
 Note that CPU processing is very slow -- it'll take at least 15x the duration of the video to process.
 
-For GPU processing of your video run:
+GPU processing is much faster (around real time) but it requires a GPU and NVIDIA docker. For GPU processing run:
 ```
 docker run --gpus=1 -v $(pwd)/data:/openpose/data stanfordnmbl/openpose-gpu\
   /openpose/build/examples/openpose/openpose.bin\
