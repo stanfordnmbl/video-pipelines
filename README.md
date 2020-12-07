@@ -46,7 +46,7 @@ VideoPose3D returns 3d keypoints for each frame in the video. See [VideoPose3D r
 
 **GPU and NVIDIA docker are required to run this software**
 
-Create `input`, `output`, and 'models' directories. Put your `mp4` video in the `input` directory.
+Create `input`, `output`, and `models` directories. Put your `mp4` video in the `input` directory.
 
 Run
 ```
