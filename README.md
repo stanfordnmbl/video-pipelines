@@ -39,8 +39,6 @@ Resultis will be store in `data/keypoints` directory.
 
 In the scripts above `$(pwd)/data` corresponds to the path in which your `data` directory is stored.
 
-docker run --gpus all --rm -v $(pwd)/input:/data/input -v $(pwd)/output:/data/output -v $(pwd)/models:/data/models -it vid2osim
-
 ## VideoPose3D
 
 VideoPose3D returns 3d keypoints for each frame in the video. See [VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D) for details.
