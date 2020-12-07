@@ -65,5 +65,5 @@ In the first run, deep learning models will be downloaded to `models` directory 
 
 In this repository we only provide instructions on how to run software. Corresponding licenses apply.
 
-OpenPose: See [OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-VideoPose3D: See [VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D)
+* OpenPose: See [OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+* VideoPose3D: See [VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D)
