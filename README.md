@@ -9,7 +9,7 @@
 
 ## OpenPose
 
-[OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+OpenPose returns 2d keypoints for each frame in the video. See [OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose) for details.
 
 Create a directory (say `data` as in the example below) and put your video (e.g. `video.mp4`) in that directory.
 
@@ -42,11 +42,11 @@ docker run --gpus all --rm -v $(pwd)/input:/data/input -v $(pwd)/output:/data/ou
 
 ## VideoPose3D
 
-[VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D)
+VideoPose3D returns 3d keypoints for each frame in the video. See [VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D) for details.
 
-**GPU required**
+**GPU and NVIDIA docker are required to run this software**
 
-Create `input`, `output`, and 'models' directories. Put your `mp4` video in the `input` directory.
+Create `input`, `output`, and `models` directories. Put your `mp4` video in the `input` directory.
 
 Run
 ```
@@ -65,5 +65,5 @@ In the first run, deep learning models will be downloaded to `models` directory 
 
 In this repository we only provide instructions on how to run software. Corresponding licenses apply.
 
-OpenPose: See [OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-VideoPose3D: See [VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D)
+* OpenPose: See [OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+* VideoPose3D: See [VideoPose3D repository](https://github.com/facebookresearch/VideoPose3D)
