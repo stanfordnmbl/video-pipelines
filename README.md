@@ -6,6 +6,8 @@
 * [Docker client](https://www.docker.com/products/docker-desktop)
 * Optional: [NVIDIA docker](https://github.com/NVIDIA/nvidia-docker) for GPU support (10x faster processing)
 
+You don't need to download anything from this repository -- `docker run` command will automatically download OpenPose/VideoPose3D from the default repository.
+
 ## OpenPose
 
 OpenPose returns 2d keypoints for each frame in the video. See [OpenPose repository](https://github.com/CMU-Perceptual-Computing-Lab/openpose) for details.
