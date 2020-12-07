@@ -3,7 +3,6 @@
 ## Requirements
 
 * Windows/MacOS/Linux
-* [Git client](https://git-scm.com/downloads)
 * [Docker client](https://www.docker.com/products/docker-desktop)
 * Optional: [NVIDIA docker](https://github.com/NVIDIA/nvidia-docker) for GPU support (10x faster processing)
 
